@@ -4,9 +4,9 @@ var webpack = require('webpack')
 
 module.exports = {
 
-  devtool: 'source-map',
+  //devtool: 'source-map',
 
-  entry: './modules/client.js',
+  entry: './src/client.js',
 
   resolve: {
     extensions: ["", ".js", ".jsx"],
